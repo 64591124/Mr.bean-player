@@ -20,7 +20,8 @@ module.exports = {
   rules: {
     '@typescript-eslint/no-var-requires': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
-    'prettier/prettier': ['error', { endOfLine: 'auto' }]
+    'prettier/prettier': ['error', { endOfLine: 'auto' }],
+    quotes: [1, 'single'] // 单引号冲突
   }
 }
 
