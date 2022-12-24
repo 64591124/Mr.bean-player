@@ -25,6 +25,3 @@ export const BASE_URL = 'http://codercba.com:9002'
 // console.log(import.meta.env.VITE_URL)
 
 export const TIME_OUT = 10000
-
-// 2.依赖于当前环境
-console.log(process.env.NODE_ENV)
