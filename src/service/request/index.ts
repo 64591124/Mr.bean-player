@@ -21,7 +21,7 @@ class HYRequest {
     // 全局的拦截器
     this.instance.interceptors.request.use(
       (config) => {
-        console.log('全局请求成功拦截')
+        // console.log('全局请求成功拦截')
         return config
       },
       (err) => {

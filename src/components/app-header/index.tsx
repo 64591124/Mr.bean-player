@@ -3,7 +3,7 @@ import type { FC, ReactNode } from 'react'
 import { NavLink } from 'react-router-dom'
 import { HeaderLeft, HeaderRight, HeaderWrapper } from './style'
 import headerTitles from '@/assets/data/header_titles.json'
-import Input from 'antd/es/input/Input'
+import { Input } from 'antd'
 import { SearchOutlined } from '@ant-design/icons'
 
 interface Iprops {

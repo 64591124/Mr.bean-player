@@ -35,12 +35,17 @@ export const HeaderLeft = styled.div`
 
     .item {
       position: relative;
-      padding: 0 19px;
       height: 70px;
       text-align: center;
       line-height: 70px;
+      a {
+        padding: 0 19px;
+        display: block;
+        text-decoration: none;
+      }
 
-      &:hover {
+      &:hover,
+      .active {
         text-decoration: none;
         background-color: #000;
       }
